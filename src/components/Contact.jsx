@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
-}
-
-export default Contact
-=======
 import { BsFillTelephoneFill,BsYoutube } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";
@@ -110,4 +100,4 @@ function Contact() {
 }
 
 export default Contact;
->>>>>>> f84ab03 (prod push)
+

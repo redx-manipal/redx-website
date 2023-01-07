@@ -10,11 +10,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-dark);
+  background-color: var(--background);
   color: var(--text-white);
+}
+html{
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+//contact and footer
+
+#contact, .footer{
+  background-color: var(--background-dark);
+}
+
+.contactContainer{
+  height: 35rem;
+
+  .leftContainer{
+    height: 28rem;
+  }
+
+  .rightContainer{
+   background-color: var(--contact-bg);
+   height: 30rem;
+   width: 30rem;
+
+   input{
+      background-color: var(--contact-input);
+      width:20rem;
+    }
+
+    textarea{
+      background-color: var(--contact-input);
+    }
+    
+
+    .inputContainer{
+      background-color:var(--contact-input);
+    }
+  }
 }

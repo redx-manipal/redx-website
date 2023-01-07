@@ -1,13 +1,4 @@
-<<<<<<< HEAD
 
-function AboutUs() {
-  return (
-    <div>AboutUs</div>
-  )
-}
-
-export default AboutUs
-=======
 function AboutUs() {
   return (
     <article>
@@ -17,4 +8,4 @@ function AboutUs() {
 }
 
 export default AboutUs;
->>>>>>> f84ab03 (prod push)
+

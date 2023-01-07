@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-
-function Header() {
-  return (
-    <div>Header</div>
-  )
-}
-
-export default Header
-=======
 import React, { useState } from 'react'
 import '../styles/Navbar.scss';
 
@@ -81,4 +71,3 @@ function Navbar() {
 }
 
 export default Navbar;
->>>>>>> f84ab03 (prod push)

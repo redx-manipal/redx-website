@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-
-function Partners() {
-  return (
-    <div>Partners</div>
-  )
-}
-
-export default Partners
-=======
 import "../data/partners";
 import { partners } from "../data/partners";
 
@@ -29,4 +18,3 @@ function Partners() {
 }
 
 export default Partners;
->>>>>>> f84ab03 (prod push)
