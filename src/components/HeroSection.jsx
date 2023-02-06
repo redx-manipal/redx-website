@@ -1,4 +1,4 @@
-
+import Carousel from "./Carousel";
 
 function HeroSection() {
   return (
@@ -11,7 +11,8 @@ function HeroSection() {
        </p>
      </div>
      <div className="w-full lg:w-3/4 md:w-full px-6">
-       <img src="him.png" alt="Hero" className="h-full" />
+       {/* <img src="him.png" alt="Hero" className="h-full" /> */}
+       <Carousel/>
      </div>
    </div>
  );
