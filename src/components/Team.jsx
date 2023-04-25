@@ -12,7 +12,7 @@ function Team() {
       <div className="flex flex-col items-center justify-between ">
         <div className="grid lg:grid:3 md:grid-cols-3 sm:grid-cols-1">
           {threeIndividual.map((individual, id) => (
-            <div key={id} className="flex flex-col items-center justify-center">
+            <div key={id} className="py-10 flex flex-col items-center justify-center md:py-0">
               <div className="flex flex-col items-center">
                 <img
                   src={individual.img}
@@ -33,7 +33,7 @@ function Team() {
 
         <div className="grid lg:grid:5 md:grid-cols-5 sm:grid-cols-1 mt-10">
           {fiveIndividualOne.map((individual, id) => (
-            <div key={id} className="flex flex-col items-center justify-center">
+            <div key={id} className="py-10 flex flex-col items-center justify-center md:py-0">
             <div className="flex flex-col items-center">
               <img
                 src={individual.img}
@@ -54,7 +54,7 @@ function Team() {
 
         <div className="grid lg:grid:5 md:grid-cols-5 sm:grid-cols-1 mt-10">
           {fiveIndividualTwo.map((individual, id) => (
-           <div key={id} className="flex flex-col items-center justify-center">
+           <div key={id} className="py-10 flex flex-col items-center justify-cente md:py-0">
            <div className="flex flex-col items-center px-4">
              <img
                src={individual.img}

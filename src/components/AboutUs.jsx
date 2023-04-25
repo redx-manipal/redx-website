@@ -1,8 +1,8 @@
 
 function AboutUs() {
   return (
-    <article>
-      {/* About us */}
+    <article id='about'>
+      About 
     </article>
   );
 }

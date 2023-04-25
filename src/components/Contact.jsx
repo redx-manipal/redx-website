@@ -45,10 +45,10 @@ function Contact() {
 
           {/* section three  */}
           <div className="flex justify-between text-4xl">
-            <RiFacebookCircleFill className=" hover:text-red-600" />
-            <RiInstagramLine className=" hover:text-red-600" />
-            <RiLinkedinFill className=" hover:text-red-600" />
-            <BsYoutube className=" hover:text-red-600" />
+            <RiFacebookCircleFill className=" hover:text-red-600 transition " />
+            <RiInstagramLine className=" hover:text-red-600 transition " />
+            <RiLinkedinFill className=" hover:text-red-600 transition " />
+            <BsYoutube className=" hover:text-red-600 transition" />
           </div>
         </div>
 
