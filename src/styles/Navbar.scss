@@ -5,3 +5,7 @@
   .navLink:hover{
     text-decoration-color:var(--color-red);
   }
+
+  .btn{
+    @apply py-0;
+  }
