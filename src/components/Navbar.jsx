@@ -23,10 +23,10 @@ const navLinks = [
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 z-10 backdrop-filter backdrop-blur-xl">
+    <nav className="sticky top-0 z-10 backdrop-filter backdrop-blur-xl" id='navbar'>
       <div className="flex justify-around items-center h-20">
         <Link to="/">
-          <img src="RedX.png" alt="redx" width={80} className="" />
+       <img src="RedX.png" alt="redx" width={80} className="" />
         </Link>
 
         <div className="hidden md:flex justify-between gap-10 text-zinc-500 text-lg">
@@ -38,10 +38,10 @@ function Navbar() {
         </div>
 
        
-       <div className='flex w-52 justify-between'>
+       <div className='flex'>
        <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn events bg-[#EA0000] px-5 text-white font-bold hover:bg-[#b11a1a]">
-            Events
+          <label tabIndex={0} className="btn events bg-[#EA0000] px-5  text-white font-bold hover:bg-[#b11a1a]">
+         know more
           </label>
           <ul
             tabIndex={0}
